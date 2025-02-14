@@ -149,83 +149,137 @@
     <div class="container">
         <h2 class="text-center">Nossos Serviços</h2>
         <div class="row text-center">
-            <div class="col-md-4">
-                <h4>Websites Institucionais</h4>
-                <p>Sites elegantes e profissionais para sua empresa.</p>
-                <a href="http://barbershopmendes.netlify.app/" target="_blank">BarberShop Mendes</a>
-                
-                <div id="carouselWebsites" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/home-barbermendes.png" alt="Imagem BarberShop Mendes" class="d-block w-100 image-preview">
+            <!-- Primeira linha de serviços -->
+            <div class="col-md-6">
+                <div class="service-box">
+                    <h4>Websites Institucionais</h4>
+                    <p>Sites elegantes e profissionais para sua empresa.</p>
+                    <a href="http://barbershopmendes.netlify.app/" target="_blank">BarberShop Mendes</a>
+                    
+                    <div id="carouselWebsites" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/home-barbermendes.png" alt="Imagem BarberShop Mendes" class="d-block w-100 image-preview">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/barbermendes.png" alt="Imagem Barbershop Mendes" class="d-block w-100 image-preview">
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="assets/barbermendes.png" alt="Imagem Barbershop Mendes" class="d-block w-100 image-preview">
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselWebsites" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselWebsites" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselWebsites" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselWebsites" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <h4>Sistema de Agenda</h4>
-                <p>Cada usuário poderá ter acesso a sua agenda individual, sem interrupção de agendas ou eventos de outros usuários</p>
-                <a href="https://sistema-rafaelharthopf.wuaze.com/sistema-agenda" target="_blank">Agendador</a>
-                
-                <div id="carouselAgenda" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/agendador1.png" alt="Imagem Agendador" class="d-block w-100 image-preview">
+            <div class="col-md-6">
+                <div class="service-box">
+                    <h4>Sistema de Agenda</h4>
+                    <p>Cada usuário poderá ter acesso a sua agenda individual, sem interrupção de agendas ou eventos de outros usuários</p>
+                    <a href="https://sistema-rafaelharthopf.wuaze.com/sistema-agenda" target="_blank">Agendador</a>
+                    
+                    <div id="carouselAgenda" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/agendador1.png" alt="Imagem Agendador" class="d-block w-100 image-preview">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/agendador2.png" alt="Imagem Agendador" class="d-block w-100 image-preview">
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="assets/agendador2.png" alt="Imagem Agendador" class="d-block w-100 image-preview">
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAgenda" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselAgenda" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAgenda" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselAgenda" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <!-- Segunda linha de serviços -->
+            <div class="col-md-6">
+                <div class="service-box">
+                    <h4>ERPs</h4>
+                    <p>Um sistema completo de gerenciamento de processos para sua empresa, que inclui uma agenda onde o cliente pode agendar o dia, horário e escolher o barbeiro para o atendimento. Na área administrativa, é possível visualizar e gerenciar todos os produtos, estoques, comissões, relatórios e muito mais.</p>
+                    <a href="https://sistema-rafaelharthopf.wuaze.com/barbearia/" target="_blank">Barbearia Harthopf</a>
+                    
+                    <div id="carouselErps" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/barberharthopf.png" alt="Imagem Barbearia Harthopf" class="d-block w-100 image-preview">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/barberharthopf2.png" alt="Imagem Barbearia Harthopf" class="d-block w-100 image-preview">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselErps" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselErps" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <h4>ERPs</h4>
-                <p>Um sistema completo de gerenciamento de processos para sua empresa, que inclui uma agenda onde o cliente pode agendar o dia, horário e escolher o barbeiro para o atendimento. Na área administrativa, é possível visualizar e gerenciar todos os produtos, estoques, comissões, relatórios e muito mais.</p>
-                <a href="https://sistema-rafaelharthopf.wuaze.com/barbearia/" target="_blank">Barbearia Harthopf</a>
-                
-                <div id="carouselErps" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/barberharthopf.png" alt="Imagem Barbearia Harthopf" class="d-block w-100 image-preview">
+            <div class="col-md-6">
+                <div class="service-box">
+                    <h4>Sistema de Contratação de Serviços</h4>
+                    <p>Empresas podem se cadastrar para os clientes que irão buscar serviços, possam encontrar sua empresa.</p>
+                    <a href="https://sistema-rafaelharthopf.wuaze.com/maridodealuguel" target="_blank">ContrataJá</a>
+                    
+                    <div id="carouselAgenda" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/contrataja1.png" alt="Imagem ContrataJá" class="d-block w-100 image-preview">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/contrataja.png" alt="Imagem ContrataJá" class="d-block w-100 image-preview">
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="assets/barberharthopf2.png" alt="Imagem Barbearia Harthopf" class="d-block w-100 image-preview">
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselContrata" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselContrata" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselErps" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselErps" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<style>
+    .service-box {
+        height: 100%;
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .image-preview {
+        object-fit: cover;
+        height: 250px; /* Limita a altura da imagem para manter o layout equilibrado */
+    }
+</style>
+
 
 
 
